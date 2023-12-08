@@ -95,6 +95,7 @@ nav ul li a:hover::after {
 #events{
 text-align: center;
 padding-top: 100px;
+align-items: center;
 }
 
 #events h1{
@@ -102,17 +103,16 @@ padding-top: 100px;
 
 }
 
-.event-list{
+.event-row-1{
   align-items: center;
-  display: ;
-  justify-content: space-between
+  width: 75%;
+  height: 20vh;
+  background-color: #ffffff;
+  margin: 30px 0 0 150px;
 }
 
-.event-row{
-  background-color: #000000;
-  width: 400px;
-  height: 200px;
-  
 
-
+table{
+  align-items: center;
+  text-align: left;
 }
