@@ -90,10 +90,6 @@ nav a:hover {
 
 }
 
-#events h1 {
-  font-size: 50px;
-
-}
 
 
 .event-list{
@@ -204,6 +200,156 @@ nav a:hover {
 
 
 
-#about{
+#about-us{
+  align-items: center;
   padding: 80px 0;
+}
+
+.about-row{
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+}
+
+
+
+.about-col-1 img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+.about-col-1{
+  flex-basis: 65%;
+}
+
+.about-col-2{
+  flex-basis: 30%;
+}
+
+.about-col-2 h2{
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.about-col-2 p{
+  text-align: left;
+  text-indent: 100px;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+
+
+#contact-us{
+  align-items: center;
+  padding: 80px 0;
+}
+
+.contact-row{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 80px;
+}
+
+.contact-left{
+  flex-basis: 35%;
+  text-align: left;
+  padding-left: 0px;
+}
+
+.contact-right{
+  flex-basis: 60%;
+}
+
+
+.contact-left h2{
+  margin: 20px 0;
+}
+
+.contact-left p {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+
+.contact-left p i{
+  color: #f16f23;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+
+.social-icons{
+  margin-top: 30px;
+}
+
+
+.social-icons a{
+  text-decoration: none;
+  font-size: 30px;
+  color: #ababab;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+
+
+.social-icons a :hover{
+  color: #f16f23;
+  transform: translateY(-5px);
+}
+
+
+
+form input, form textarea{
+  width: 100%;
+  border: 0;
+  outline: none;
+  background-color: #262626;
+  padding: 15px;
+  margin: 15px 0;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+button{
+  display: inline-block;
+  background-color: #f16f23;
+  color: #ffffff;
+  padding: 20px 50px;
+  border-radius: 5px;
+  border-style: none;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+button:hover, button:focus, button:active{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+
 }
